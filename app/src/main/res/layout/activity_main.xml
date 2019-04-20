@@ -31,5 +31,21 @@
         android:onClick="stopThread"
         android:text="Stop"/>
 
+<Button
+        android:id="@+id/btnTaskA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="taskA"
+        android:text="TaskA"/>
+
+    <Button
+        android:id="@+id/btnTaskB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="taskB"
+        android:text="TaskB"/>
+
 
 </LinearLayout>
